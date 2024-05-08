@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    margin: 2rem 10rem 0rem 7rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container-buttons-header {
+    display: flex;
+    gap: 4rem;
+}
+
+
