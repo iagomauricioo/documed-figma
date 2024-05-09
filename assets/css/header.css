@@ -3,6 +3,7 @@ header {
     margin: 2rem 10rem 0rem 7rem;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 #div-logo-image {
@@ -30,9 +31,10 @@ header {
     color: black;
     background-color: transparent;
     font-weight: 600;
-    width: 7rem;
+    width: 8rem;
     font-size: 1rem;
     border-bottom: 2px solid white;
+    height: 1.5rem;
 }
 
 .button-header:hover {
