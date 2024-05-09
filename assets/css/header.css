@@ -5,9 +5,39 @@ header {
     justify-content: space-between;
 }
 
+#div-logo-image {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: var(--font-color);
+}
+
+#logo-image {
+    position: relative;
+    left: -2px;
+    width: 100%;
+    height: 100%;
+}
+
 #container-buttons-header {
     display: flex;
     gap: 4rem;
+}
+
+.button-header {
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: transparent;
+    font-weight: 600;
+    width: 7rem;
+    font-size: 1rem;
+    border-bottom: 2px solid white;
+}
+
+.button-header:hover {
+    cursor: pointer;
+    border-bottom: 2px solid var(--light-blue);
 }
 
 
