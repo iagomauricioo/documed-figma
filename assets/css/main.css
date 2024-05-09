@@ -48,7 +48,7 @@
 
 
 
-#image-main-1 {
+#image-main-1-1 {
     width: 9rem;
     height: 9rem;
     background-color: var(--light-blue);
@@ -60,14 +60,14 @@
     
 }
 
-#image-main-2 {
+#image-main-1-2 {
     border-bottom-left-radius: 35%;
     width: 55rem;
     position: relative;
     left: 4rem;
 }
 
-#image-main-3 {
+#image-main-1-3 {
     width: 14rem;
     height: 14rem;
     background-color: var(--light-yellow);
@@ -78,7 +78,7 @@
     left: 40rem;
 }
 
-#button-contact-now {
+#button-main-1{
     width: 12rem;
     height: 3rem;
     border-radius: 45px;
@@ -93,7 +93,7 @@
     color: white;
 }
 
-#button-contact-now:hover {
+#button-main-1:hover {
     background: #0730c4;
     font-size: 1.2em;
 }
@@ -125,3 +125,22 @@
     width: 25%;
 }
 
+#image-main-3-1 {
+    width: 14rem;
+    height: 14rem;
+    background-color: var(--light-yellow);
+    border-top-left-radius: 50%;
+    z-index: -1;
+    position: relative;
+    top: 10rem;
+}
+
+#container-main-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#grid-main-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
