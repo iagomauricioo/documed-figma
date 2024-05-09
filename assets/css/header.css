@@ -35,11 +35,11 @@ header {
     font-size: 1rem;
     border-bottom: 2px solid white;
     height: 1.5rem;
+    z-index: 2;
 }
+
 
 .button-header:hover {
     cursor: pointer;
-    border-bottom: 2px solid var(--light-blue);
+    border-bottom: 3px solid var(--light-blue);
 }
-
-

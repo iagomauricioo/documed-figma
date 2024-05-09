@@ -8,11 +8,11 @@ html {
     font-size: 16px;
     background-color: var(--background-color);
     color: var(--font-color);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 :root {
-    --background-color: white;
+    --background-color: #FEFEFE;
     --font-color: #000;
     --button-color: #2639ED;
     --light-blue: #DAE9FF;
