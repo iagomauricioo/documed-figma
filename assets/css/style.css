@@ -9,7 +9,8 @@ html {
     background: rgb(254, 254, 254);
     background: linear-gradient(318deg, rgba(254, 254, 254, 1) 30%, rgba(218, 233, 255, 1) 89%);
     color: var(--font-color);
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Roboto', sans-serif;
 }
 
 :root {
@@ -19,3 +20,10 @@ html {
     --light-blue: #DAE9FF;
     --light-yellow: #FFF5DB;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* font { */
+/*     font-family: 'Roboto', sans-serif; */
+/* } */
+
+
