@@ -1,1 +1,0 @@
-# Projeto DOCUMED com Figma
