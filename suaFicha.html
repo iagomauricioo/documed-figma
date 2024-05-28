@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de Pacientes</title>
-    <link rel="stylesheet" href="assets/css/registros.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Pacientes</title>
+  <link rel="stylesheet" href="assets/css/registros.css">
 </head>
+
 <body>
-    <Header class="init">
-        <div id="div-logo-image">
-            <img src="assets/images/images/logo2.png" id="logo-image">
-        </div>
-        <div class="title-text">
-            <h1>Registro de Pacientes</h1>
-            <p>Seja bem-vindo(a)!</p>
-        </div>
-    </Header>
-    <main>
-        <form id="form-cpf" method="get" onsubmit="historico(event)">
-            <label for="cpf">Insira seu CPF:</label>
-            <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00" maxlength="14" required>
-            <button type="submit">Enviar</button>
-        </form>
-        <table>
-            <thead>
-                <tr>
-                    <th>Nome</th>
-                    <th>CPF</th>
-                    <th>Patologia</th>
-                    <th>Lesões</th>
-                    <th>Cirurgias</th>
-                    <th>Medicações atuais</th>
-                    <th>Historico familiar</th>
-                    <th>Alergias</th>
-                    <th>Vacinações</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td id="name"></td>
-                    <td id="cpf-result"></td>
-                    <td id="pathology"></td>
-                    <td id="injuries"></td>
-                    <td id="surgeries"></td>
-                    <td id="current-medications"></td>
-                    <td id="family-history"></td>
-                    <td id="allergies"></td>
-                    <td id="vaccinations"></td>
-                </tr>
-            </tbody>
-        </table>
-    </main>
-    <script src="ficha-cpf.js"></script>
+  <Header class="init">
+    <div id="div-logo-image">
+      <img src="assets/images/images/logo2.png" id="logo-image">
+    </div>
+    <div class="title-text">
+      <h1>Sua Ficha</h1>
+      <p>Seja bem-vindo(a)!</p>
+    </div>
+  </Header>
+  <main>
+    <form id="form-cpf" method="get" onsubmit="historico(event)">
+      <label for="cpf">Insira seu CPF:</label>
+      <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00" maxlength="14" required>
+      <button type="submit">Enviar</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>CPF</th>
+          <th>Patologia</th>
+          <th>Lesões</th>
+          <th>Cirurgias</th>
+          <th>Medicações atuais</th>
+          <th>Historico familiar</th>
+          <th>Alergias</th>
+          <th>Vacinações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="name"></td>
+          <td id="cpf-result"></td>
+          <td id="pathology"></td>
+          <td id="injuries"></td>
+          <td id="surgeries"></td>
+          <td id="current-medications"></td>
+          <td id="family-history"></td>
+          <td id="allergies"></td>
+          <td id="vaccinations"></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <script src="ficha-cpf.js"></script>
 </body>
+
 </html>
