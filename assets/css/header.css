@@ -1,6 +1,6 @@
 header {
     display: flex;
-    margin: 2rem 10rem 0rem 7rem;
+    margin: 2rem 2rem 0rem 4rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +22,7 @@ header {
 
 #container-buttons-header {
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .button-header {
@@ -36,6 +36,19 @@ header {
     border-bottom: 2px solid transparent;
     height: 1.5rem;
     z-index: 2;
+}
+.button-header a{
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: transparent;
+    font-weight: 600;
+    width: 8rem;
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+    height: 1.5rem;
+    z-index: 2;
+    text-decoration: none;
 }
 
 
