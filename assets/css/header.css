@@ -27,8 +27,8 @@ header {
 
 .button-header {
     border: 0;
-    font-family: 'Courier New', Courier, monospace;
     color: black;
+    font-family: 'Roboto', sans-serif;
     background-color: transparent;
     font-weight: 600;
     width: 8rem;
